@@ -1,0 +1,160 @@
+   * {
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+     font-family: 'Ubuntu', sans-serif;
+   }
+
+   header {
+
+     background-color: #2E948A;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     height: 117px;
+     gap: 50%;
+
+   }
+
+   .acessoheader a {
+     font-size: 20px;
+     
+     color: white;
+     justify-content: space-around; text-decoration: none;
+     padding: 5px;
+     margin: 5px;
+     height: 100px;
+     width: 100px;
+     border-radius: 50px;
+   }
+
+
+   h1 {
+     color: #FF4081;
+     margin-top: 5%;
+     margin-left: 3%;
+   }
+
+   h2 {
+     color: #FF4081;
+   }
+   h3 {
+    margin-left: 3%; 
+    color:#555555 ;
+   }
+
+   
+  
+
+    
+  
+   
+   
+   
+
+   
+
+   .botao {
+     color: white;
+     background-color: #2E948A;
+     text-decoration: none;
+     padding: 5px;
+     margin: 5px;
+     height: 100px;
+     width: 100px;
+     border-radius: 50px;
+   }
+
+   hr {
+     background-color: #E5E5E5;
+     margin-left: 5%;
+     height: 5px;
+     color:#C4C4C4 ;
+   }
+
+   .investimento {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     margin-left: 5%;
+
+     }
+      
+     .legendainvestimento {
+      margin-left: 5%;
+     }
+   
+
+
+
+
+   .poupando {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     margin-left: 5%;
+   }
+   .legendapoupando {
+    margin-left: 5%;
+   }
+
+   .independencia {
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     margin-left: 5%;
+   }
+   .legendaindependencia {
+    margin-left: 5%;
+   }
+   
+
+
+   footer {
+    background: #2E948A;
+    width: 100%;
+    height: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.MenuFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuFooter a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.LinkFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.LinkFooter a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  justify-content: center;
+  background-color: #2E948A;
+  width: 268px;
+  height: 51px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+ 
+}
